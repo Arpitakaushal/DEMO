@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+header {
+  background-color: #333;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* About Us & FAQ sections */
+
+.about-us,
+.faq {
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  padding: 20px;
+  margin-bottom: 20px;
+  font-family: 'Raleway', sans-serif; /* Optional font change */
+}
+
+.about-us h2,
+.faq h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  /* Add a background with a subtle gradient for a 3D-like effect */
+  background: linear-gradient(to right, #fff 0%, #f5f5f5 100%);
+  padding: 5px 10px;
+}
